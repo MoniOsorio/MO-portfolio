@@ -1,16 +1,46 @@
-body {
-  background-color: #edfcf4;
+:root { 
+--branding-color: #87AAAA;
+--heading-font-fam: "Playfair Display", serif;
+--default-font-fam: "Roboto", sans-serif;
+--secondary-color: #DCEAE2;
+}
+.hero h2 { 
+font-size: 34px ;
+line-height: 2;
+color: #272044;
+}
+.hero h1 {
+  font-family: var(--heading-font-fam);
+  font-weight: bold;
+  font-size: 96px;
 }
 
-h2 {
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
+ .hero {
+    background-color: var(--secondary-color) ;
+    text-align: center;
+    padding: 160px 20px;
+}
+ .btn-index {
+    border-radius: 4px;
+    background: var(--branding-color);
+    color: azure;
+    font-size: 18px;
+    padding: 15px 30px;
 }
 h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--default-font-fam);
   font-weight: lighter;
 }
- {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font-fam);
+
 }
- {
+body {
+    font-family: var(--default-font-fam);
+
 }
