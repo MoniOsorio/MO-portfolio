@@ -33,10 +33,12 @@ color: #272044;
   font-weight: lighter;
   background-color:#486666
 }
+
 .navbar-nav {
   color:#272044
-  font-weight: lighter;
+ font-weight: lighter;
 }
+
 h3 {
   font-family: var(--default-font-fam);
   font-weight: lighter;
