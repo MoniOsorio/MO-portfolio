@@ -28,6 +28,15 @@ color: #272044;
     font-size: 18px;
     padding: 15px 30px;
 }
+.navbar-default .navbar-brand {
+  font-family: var(--heading-font-fam);
+  font-weight: lighter;
+  background-color:#486666
+}
+.navbar-nav {
+  color:#272044
+  font-weight: lighter;
+}
 h3 {
   font-family: var(--default-font-fam);
   font-weight: lighter;
@@ -48,8 +57,8 @@ h2 {
 p {
     font-size: 24px;
     line-height: 30px;
-    font-family: var(--default-font-fam);
-    font-weight: bold;
+    font-family: var(--heading-font-fam);
+    font-weight: normal;
 
 }
 body {
