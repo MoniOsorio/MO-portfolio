@@ -54,6 +54,12 @@ body {
     font-family: var(--default-font-fam);
 
 }
+.img-fluid {
+    width: 80%;
+    height: 550px;
+
+
+}
 
 .btn-branding-outline{
     color: var(--branding-color);
