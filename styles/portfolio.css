@@ -67,6 +67,13 @@ body {
     font-family: var(--default-font-fam);
 
 }
+footer {
+  font-family: var(--default-font-fam);
+  font-weight: normal;
+  font-size: medium;
+  background-color: #87AAAA;
+  padding: 15px;
+}
 
 .row {
    
@@ -102,6 +109,14 @@ body {
 .project-description {
     padding: 120px 25px;
 
+}
+
+#contactme {
+text-align: center;
+color: #486666;
+padding-bottom: 15px;
+line-height: 1;  
+background-color: #DCEAE2;  
 }
 
 @media (max-width:960px) {
