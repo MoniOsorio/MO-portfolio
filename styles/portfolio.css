@@ -77,9 +77,7 @@ a:hover {
     color: #486666;
     cursor:pointer;
 }
-a:visited {
-color: var(--secondary-color);
- }  
+  
  a {
 color: #65c0c0;
  } 
