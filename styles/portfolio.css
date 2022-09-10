@@ -127,17 +127,22 @@ background-color: #DCEAE2;
 
 @media (max-width:960px) {
     h1 {
-  font-size: 75px;
+  font-size: 65px;
 }
 h2 {
-  font-size: 48px;
+  font-size: 40px;
 }
 .hero  {
-  padding: 85px 22px;
+  padding: 70px 20px;
 }
 .project-description {
     padding: 0;
     text-align: center;
 
 }
+.snapshots .container {
+  width: fit-content
+  height: fit-content;
+}
+
 }
