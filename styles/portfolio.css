@@ -65,7 +65,6 @@ p {
 }
 body {
     font-family: var(--default-font-fam);
-
 }
 footer {
   font-family: var(--default-font-fam);
@@ -74,7 +73,16 @@ footer {
   background-color: #87AAAA;
   padding: 15px;
 }
-
+a:hover {
+    color: #486666;
+    cursor:pointer;
+}
+a:visited {
+color: var(--secondary-color);
+ }  
+ a {
+color: #65c0c0;
+ } 
 .row {
    
     display: flex;
