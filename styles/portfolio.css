@@ -73,6 +73,10 @@ footer {
   background-color: #87AAAA;
   padding: 15px;
 }
+
+img{
+  padding: 20px;
+  }
 a:hover {
     color: #486666;
     cursor:pointer;
@@ -92,16 +96,29 @@ color: #65c0c0;
   flex: 33.33%;
   }
 
-.img-fluid {
-    height: 550px;
+.about{
+  padding:160px 20px;
+ 
+  }
+.about h1{
+  font-size:64px;
+  line-height: 80px;
+  }
 
-}
-.img-thumbnail {
-    height: 250px;
-    width: 70%;
+  .about h2 {
+  font-size: 26px;
+  }
 
-}
+  .about img {
+  border-radius: 3px;
+  height:fit-content;
+  width: fit-content;
+  line-height: 80px;
+  }
 
+  .about-section-container{
+  margin: 30px;
+  }
 .btn-branding-outline{
     color: var(--branding-color);
     border: 1px solid var(--branding-color);
@@ -144,5 +161,10 @@ h2 {
   width: fit-content
   height: fit-content;
 }
+
+.about {
+  text-align: center;
+  padding: 0;
+  }
 
 }
