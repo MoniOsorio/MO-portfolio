@@ -110,8 +110,20 @@ color: #65c0c0;
 
   .content h2 {
   font-size: 26px;
+  font-weight: lighter;
+  }
+.container h3 {
+  font-size: 28px;
+  font-family: var(--default-font-fam);
+  font-weight: 500;
+  line-height: 1;
+  margin: 20px 0 0;
   }
 
+  .container p{
+  font-size: 18px;
+  font-family: var(--default-font-fam);  
+} 
   .content img {
   border-radius: 3px;
   height:auto;
