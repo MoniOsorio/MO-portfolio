@@ -175,6 +175,10 @@ color: #65c0c0;
     font-size: 20px;
 }
 
+.jumbotron {
+   background-color: rgb(237, 243, 243);
+}
+
 #contactme {
 text-align: center;
 color: #486666;
