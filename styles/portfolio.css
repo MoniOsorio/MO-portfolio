@@ -63,8 +63,8 @@ p {
     font-weight: normal;
 
 }
-i {
-    font-size: 40px;
+.contact-handles i {
+    font-size: 34px;
     color: #566e6e;
     padding: 10px;
     margin: auto;
@@ -76,9 +76,49 @@ body {
 footer {
   font-family: var(--default-font-fam);
   font-weight: normal;
-  font-size: medium;
-  background-color: #ccd7d7;
-  padding: 15px;
+}
+
+footer .contact-box {
+    background-color: var(--secondary-color);
+    padding: 30px 60px;
+    border-radius: 10px;
+}
+
+footer .contact-box h4{
+    font-size: 36px;
+}
+footer .contact-box p{
+    font-size: 18px;
+    margin: 0;
+}
+
+footer .email-link{
+text-decoration: none;
+color:#272044;
+font-size: 24px;
+text-align: center;
+margin: auto;
+}
+
+footer .email-link:hover{
+color:lightslategray;
+font-family: var(--default-font-fam);
+
+}
+
+footer .social-links a{
+  margin: 0 15px;
+  background-color: var(--secondary-color);
+  padding: 14px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  line-height: 1;
+  text-size-adjust: 70%;
+  transition: all 150ms ease-in-out;
+
+}
+footer .social-links a:hover{
+color:white;
 }
 
 img{
@@ -240,4 +280,11 @@ nav a{
 
     font-size: 12px;
 }
+
+footer .contact-box {
+    padding: 30px;
+    }
+  footer .contact-box h4 {
+    font-size: 18px;
+    }
 }
