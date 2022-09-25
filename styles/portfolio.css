@@ -179,12 +179,37 @@ color: #65c0c0;
    background-color: rgb(237, 243, 243);
 }
 
-#contactme {
-text-align: center;
-color: #486666;
-padding-bottom: 15px;
-line-height: 1;  
-background-color: #DCEAE2;  
+.logo {
+    font-size: 20px;
+    text-align: left;
+    max-height: 40px;
+
+}
+nav {
+    padding: 22px;
+   
+  
+}
+nav li{
+    font-size: 20px;
+    display: inline;
+    list-style: none;
+    line-height: 36px;
+    margin-left: 15px;
+}
+nav li.active {
+
+    font-weight: bold;
+}
+nav a:hover{
+    color:#566e6e;
+    transition: all 100ms ease-in-out;
+
+}
+nav ul{
+    padding: 0;
+    margin:0;
+   
 }
 
 @media (max-width:960px) {
@@ -211,5 +236,8 @@ h2 {
   text-align: center;
   padding: 0;
   }
+nav a{
 
+    font-size: 12px;
+}
 }
