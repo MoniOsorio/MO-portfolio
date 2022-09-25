@@ -19,7 +19,7 @@ color: #272044;
  .hero {
     background-color: var(--secondary-color) ;
     text-align: center;
-    padding: 100px 20px;
+    padding: 80px 20px;
 }
  .btn-index {
     border-radius: 4px;
@@ -120,6 +120,12 @@ footer .social-links a{
 }
 footer .social-links a:hover{
 color:white;
+}
+
+footer p{
+  font-family: var(--default-font-fam);
+  font-size: 14px;
+  margin-top: 7px;
 }
 
 img{
@@ -261,7 +267,7 @@ h2 {
   font-size: 40px;
 }
 .hero  {
-  padding: 70px 20px;
+  padding: 60px 20px;
 }
 .project-description {
     padding: 0;
